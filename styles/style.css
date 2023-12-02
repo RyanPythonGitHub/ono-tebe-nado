@@ -25,11 +25,11 @@
 
 .header__nav_link-item {
     border-bottom: #000;
-    list-style: circle;
+    font-weight: 400;
     font-size: 18px;
     font-style: normal;
-    font-weight: 400;
     line-height: normal;
+    list-style: circle;
 }
 
 .header__nav_link-item_no-bullit {
@@ -47,8 +47,8 @@
 
 .header__contacts {
     max-width: 240px;
-    list-style: none;
     text-underline-position: under;
+    list-style: none;
 }
 
 /* aligns */
@@ -58,8 +58,8 @@
 }
 
 .aligned-text_left {
-    text-align: left;
     line-height: 115%;
+    text-align: left;
 
 }
 
@@ -75,54 +75,54 @@
 
 .cover {
     position: relative;
+    padding: 165px 50px 50px 50px;
     color: white;
     background: url(../images/cover.jpg);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
-    padding: 165px 50px 50px 50px;
 }
 
 .cover__bunner {
     position: relative;
-    margin-top: 120px;
+    z-index: 1;
     display: flex;
     justify-content: end;
     align-items: center;
-    z-index: 1;
+    margin-top: 120px;
 }
 
 .cover__bunner_text {
-    font-size: 22px;
+    margin-right: 78px;
     font-weight: 400;
+    font-size: 22px;
     line-height: 28px;
     text-align: end;
-    word-spacing: 17.5px;
     text-transform: uppercase;
-    margin-right: 78px;
+    word-spacing: 17.5px;
 }
 
 .cover__bunner_button {
-    font-size: 22px;
-    font-weight: 400;
-    text-transform: uppercase;
-    background: none;
     border: 1px solid currentColor;
     border-radius: 0;
-    color: #fff;
     padding: 12px 32px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: uppercase;
+    background: none;
 }
 
 .cover__title {
     position: relative;
-    font-size: 100px;
-    font-weight: 700;
-    letter-spacing: 0.3em;
-    text-transform: uppercase;
+    z-index: 1;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    z-index: 1;
+    font-weight: 700;
+    font-size: 100px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
 
 }
 
@@ -136,9 +136,9 @@
     gap: 30px;
     width: auto;
     height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
     padding: 50px 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .card-link {
@@ -155,8 +155,8 @@
 
 .lots__heading {
     padding: 0 0 30px 40px;
-    font-size: 40px;
     font-weight: 700;
+    font-size: 40px;
     text-transform: uppercase;
 }
 
@@ -165,11 +165,11 @@
 }
 
 .lots__look-more-link {
-    text-decoration: underline;
-    font-size: 20px;
-    font-weight: 400;
-    text-underline-position: under;
     padding-left: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: underline;
+    text-underline-position: under;
     text-transform: lowercase;
 }
 
@@ -177,8 +177,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 25px;
-    list-style: none;
     margin-bottom: 30px;
+    list-style: none;
 }
 
 /* card */
@@ -198,20 +198,20 @@
 .card__title {
     position: relative;
     z-index: 1;
-    font-size: 22px;
-    font-weight: 700;
     color: #fff;
-    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 22px;
     text-decoration: underline;
     text-underline-position: under;
+    text-transform: uppercase;
 }
 
 .card__text {
     position: relative;
     z-index: 1;
-    font-size: 20px;
-    font-weight: 400;
     color: white;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 /* about */
@@ -227,10 +227,10 @@
 }
 
 .about__logo {
-    background-color: #000;
-    border-radius: 50%;
     margin: 0 95px;
+    border-radius: 50%;
     padding: 63px 46px;
+    background-color: #000;
 }
 
 .about__logo-image {
@@ -238,9 +238,9 @@
 }
 
 .about__title {
-    text-transform: uppercase;
-    font-size: 40px;
     font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
 }
 
 .about__text {
@@ -248,8 +248,8 @@
     flex-direction: column;
     gap: 25px;
     margin-top: 100px;
-    font-size: 20px;
     font-weight: 400;
+    font-size: 20px;
 }
 
 /* footer */
@@ -325,13 +325,13 @@
 /* other */
 
 .contacts {
-    font-size: 18px;
     font-family: Raleway, Arial, sans-serif;
     font-weight: 400;
+    font-size: 18px;
     line-height: 24.3px;
 }
 
-.no-letter-spacing{
+.no-letter-spacing {
     line-height: normal;
     letter-spacing: initial;
     
