@@ -33,6 +33,8 @@ img {
   width: 100%;
 }
 
-ul,li {
+ul,
+ol,
+li {
   list-style: none;
 }
