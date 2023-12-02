@@ -111,6 +111,7 @@
     font-size: 22px;
     text-transform: uppercase;
     background: none;
+    font-family: Raleway;
 }
 
 .cover__title {
@@ -139,6 +140,7 @@
     padding: 50px 40px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .card-link {
@@ -313,7 +315,6 @@
     justify-self: end;
     align-items: center;
     gap: 20px 48px;
-    max-width: 240px;
     list-style: none;
 }
 
@@ -347,7 +348,6 @@
 }
 
 .address {
-    justify-self: end;
     font-style: normal;
 }
 
