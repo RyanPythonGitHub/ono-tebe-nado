@@ -1,3 +1,9 @@
+/* content */
+.content-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
 /* header */
 .header {
     display: grid;
@@ -54,8 +60,4 @@
     text-underline-position: under;
 }
 
-/* content */
-.content-container {
-    width: 100%;
-    margin: 0 auto;
-}
+/* other */
