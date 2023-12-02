@@ -1,1 +1,22 @@
-/* место для вашего кода */
+.header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    padding: 95px 50px 92px;
+}
+
+.content-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header__logo_section {
+    justify-self: center;
+    align-self: center;
+    width: 130px;
+}
+
+.header__logo {
+    width: inherit;
+    height: inherit;
+}
