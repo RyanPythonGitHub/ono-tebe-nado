@@ -111,11 +111,11 @@
     border-radius: 0;
     padding: 12px 32px;
     color: #fff;
+    font-family: Raleway, Arial, sans-serif;
     font-weight: 400;
     font-size: 22px;
     text-transform: uppercase;
     background: none;
-    font-family: Raleway, Arial, sans-serif;
 }
 
 .cover__title {
@@ -143,8 +143,8 @@
     height: 100%;
     padding: 50px 40px;
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
+    background-size: cover;
 }
 
 .card-link {
@@ -167,7 +167,6 @@
 }
 
 .lots__card-list-item {
-    height: 100%;
     flex-grow: 1;
     width: 430px;
     height: 450px;
@@ -183,13 +182,12 @@
 }
 
 .lots__card-list {
-    display: grid;
+    display: flex;
+    flex-wrap: nowrap;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 25px;
     margin-bottom: 30px;
     list-style: none;
-    display: flex;
-    flex-wrap: nowrap;
 }
 
 /* card */
